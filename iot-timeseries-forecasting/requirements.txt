@@ -1,0 +1,81 @@
+# These libraries support:
+
+# Data manipulation and visualization (pandas, numpy, matplotlib, seaborn)
+
+# Machine learning and deep learning (scikit-learn, torch)
+
+# LLM interaction and prompting (transformers, datasets, accelerate)
+
+# Hyperparameter optimization (optuna)
+
+
+# Optional dependencies for visualization and logging
+# pip install matplotlib seaborn wandb
+# Optional dependencies for data handling and preprocessing
+# pip install pandas numpy scikit-learn
+# Optional dependencies for deep learning and model training
+# pip install torch transformers datasets accelerate
+# Optional dependencies for hyperparameter tuning
+# pip install optuna
+# Optional dependencies for time series forecasting
+# pip install prophet
+# Optional dependencies for data augmentation
+# pip install tsaug
+# Optional dependencies for model evaluation and metrics
+# pip install statsmodels
+# Optional dependencies for data storage and retrieval
+# pip install sqlalchemy
+# Optional dependencies for cloud storage and retrieval
+# pip install boto3 google-cloud-storage azure-storage-blob
+# Optional dependencies for data visualization and reporting
+# pip install plotly dash streamlit
+# Optional dependencies for data versioning and management
+# pip install dvc
+# Optional dependencies for data pipeline orchestration and scheduling
+# pip install airflow luigi prefect
+# Optional dependencies for data quality and validation
+# pip install great_expectations
+
+
+
+#  ???? GPU support libraries (like xformers or bitsandbytes) or lightweight alternatives for limited hardware.
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+torch
+transformers
+datasets
+accelerate
+optuna
+wandb
+einops
+
+fastapi
+uvicorn
+openpyxl
+
+# pip install -r requirements.txt
+
+
+# ✅ Test If Everything Works
+# Run a quick test in a Python shell or notebook:
+
+# import torch
+# import pandas as pd
+# from transformers import AutoTokenizer
+
+# print(torch.__version__)
+# print(pd.__version__)
+
+# tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+# print("✅ Transformers loaded")
+
+
+
+# Optional: Use GPU (if you have CUDA)
+# Install with GPU support:
+# # For NVIDIA GPUs, you can install PyTorch with CUDA support. Make sure to select the correct version based on your CUDA version. For example, for CUDA 11.8, you can use:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

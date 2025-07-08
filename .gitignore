@@ -1,0 +1,12 @@
+# Common large file extensions
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.csv
+
+#ignore data directories or specific data files
+iot_timeseries_machine_learning/data/
+
+# Specific large directories
+iot-timeseries-forecasting/models/
