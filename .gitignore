@@ -5,8 +5,9 @@
 *.safetensors
 *.csv
 
-#ignore data directories or specific data files
-iot_timeseries_machine_learning/data/
+iot-timeseries-forecasting/models/__pycache__/
+
+iot-timeseries-forecasting/models/llm_forecaster
 
 # Specific large directories
-iot-timeseries-forecasting/models/
+iot-timeseries-forecasting/updated_notebooks/wandb/
