@@ -11,3 +11,8 @@ iot-timeseries-forecasting/models/llm_forecaster
 
 # Specific large directories
 iot-timeseries-forecasting/updated_notebooks/wandb/
+
+iot-timeseries-forecasting/runs
+
+#ignore virtual environment
+/.venv/
