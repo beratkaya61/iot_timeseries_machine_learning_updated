@@ -1,8 +1,0 @@
-{
-    "window_size": 61,
-    "hidden_size": 91,
-    "num_layers": 1,
-    "dropout": 0.33930127790897135,
-    "lr": 0.0012339174291345102,
-    "batch_size": 64
-}
