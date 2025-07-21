@@ -1,8 +1,8 @@
 {
-    "window_size": 172,
-    "hidden_size": 110,
+    "window_size": 198,
+    "hidden_size": 94,
     "num_layers": 1,
-    "dropout": 0.15504263023853793,
-    "lr": 0.0005579246599361697,
+    "dropout": 0.20015444884127298,
+    "lr": 0.0013992866104005752,
     "batch_size": 32
 }
